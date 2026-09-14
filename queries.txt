@@ -1,0 +1,26 @@
+9 ?- consult('rand.pl').
+true.
+
+10 ?- father(ali, huda).
+true.
+
+11 ?- father(fatima, huda).
+false.
+
+12 ?- mother(fatima, ibrahim).
+true.
+
+13 ?- mother(muzher, rand).
+false.
+
+14 ?- brother(ibrahim, huda).
+true .
+
+15 ?- brother(huda, muzher).
+false.
+
+16 ?- sister(huda, muzher).
+true .
+
+17 ?- sister(omar, lina).
+false.
